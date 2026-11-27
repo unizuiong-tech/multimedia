@@ -2,11 +2,11 @@ SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- 将 project_db 替换为具体项目对应的数据库名
-CREATE DATABASE IF NOT EXISTS project_db
+CREATE DATABASE IF NOT EXISTS multimedia
   DEFAULT CHARACTER SET utf8mb4
   DEFAULT COLLATE utf8mb4_unicode_ci;
 
-USE project_db;
+USE multimedia;
 
 -- 1. 标签字典表（标准主标签，支持按维度轻量分组）
 CREATE TABLE tags (
